@@ -1,0 +1,31 @@
+/* some style */
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+}
+#app {
+  display: flex;
+}
+
+h1 {
+  color: rgba(175, 47, 47, 0.15);
+  font-size: 80px;
+  font-weight: 200;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.aligned {
+  margin: 0 auto;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.hide {
+  visibility: hidden;
+}
